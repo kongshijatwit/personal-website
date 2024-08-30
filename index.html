@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header class="this-thing">
         <div class="info-container">
             <div>
@@ -18,6 +19,8 @@
             </article>
         </div>
     </header>
+
+    <!-- Links to GitHub, LinkedIn, and Itch.io -->
     <div class="portfolio-bar">
         <a class="portfolio-item" href="https://github.com/kongshijatwit" target="_blank">
             <img class="logos" src="images/logos/GitHub_Logo_White.png" alt="GitHub">
@@ -29,11 +32,14 @@
             <img class="logos" src="images/logos/itchio-logo-white.png" alt="Itch.io">
         </a>
     </div>
+
+
     <main>
         <nav id="nav" class="navbar">
             <a data-id="1" href="#nav" class="sidebar-button">Projects</a>
             <a data-id="2" href="#nav" class="sidebar-button">Resume</a>
         </nav>
+
         <div id="projects" class="active">
             <!-- Stoodle Project -->
             <div class="project-entry">
@@ -42,10 +48,12 @@
                         <img src="images/logos/github-mark-white.png" alt="ghLogo">
                     </a>
                 </div>
-                <img src="images/stoodle.png" alt="stoodle.png">
+                <img src="images/thumbnails/stoodle.png" alt="stoodle.png">
                 <article>
-                    <h1>Stoodle</h1>
-                    <p>A study tool plugin for students of schools using Moodle, an open-source Learning Management System.</p>    
+                    <h1 class="project-title">Stoodle</h1>
+                    <p>
+                        A study tool plugin for students of schools using Moodle, an open-source Learning Management System.
+                    </p>    
                 </article>
             </div>
             <!-- Lunar Shuttle Project -->
@@ -55,13 +63,34 @@
                         <img src="images/logos/itchio-logo-textless-white.png" alt="ghLogo">
                     </a>
                 </div>
-                <img src="images/lunar-shuttle.png" alt="lunar-shuttle.png">
+                <img src="images/thumbnails/lunar-shuttle.png" alt="lunar-shuttle.png">
                 <article>
-                    <h1>Lunar Shuttle</h1>
-                    <p>An action-rougelike game created in Godot.</p>
+                    <h1 class="project-title">Lunar Shuttle</h1>
+                    <p>
+                        An action-rougelike game created in Godot.
+                    </p>
+                </article>
+            </div>
+            <!-- A Game to Die For Project -->
+            <div class="project-entry">
+                <div style="display: grid;">
+                    <a class="project-link proj-git" href="https://github.com/kongshijatwit/A-Game-To-Die-For" target="_blank">
+                        <img src="images/logos/github-mark-white.png" alt="ghLogo">
+                    </a>
+                    <a class="project-link proj-itch" href="https://ballisticbear703.itch.io/a-game-to-die-for" target="_blank">
+                        <img src="images/logos/itchio-logo-textless-white.png" alt="ghLogo">
+                    </a>
+                </div>
+                <img src="images/thumbnails/agtdf.png" alt="agtdf.png">
+                <article>
+                    <h1 class="project-title">A Game To Die For</h1>
+                    <p>
+                        A card-based rock-paper-scissors game made in Unity.
+                    </p>
                 </article>
             </div>
         </div>
+
         <div id="resume">
             <iframe class="resume" src="files/Jonathan Kong-Shi Resume.pdf" frameBorder="0" scrolling="auto"></iframe>
         </div>

@@ -149,6 +149,7 @@ iframe {
 .project-entry {
     display: flex;
     height: 150px;
+    background-color: #3b3b3b;
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 25px;
@@ -183,5 +184,9 @@ iframe {
 }
 
 .project-entry > article {
-    padding-left: 20px;
+    padding-left: 24px;
+}
+
+.project-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
