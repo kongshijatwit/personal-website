@@ -27,7 +27,6 @@ iframe {
    |              |     
    ================
 */
-
 .this-thing {
     height: 300px;
     width: 100%;
@@ -66,7 +65,6 @@ iframe {
    |                       |
    =========================
 */
-
 .portfolio-bar {
     display: grid;
     grid-template-columns: 33% auto 33%;
@@ -99,12 +97,10 @@ iframe {
    |                                     |
    =======================================
 */
-
 .navbar {
     display: flex;
     margin-bottom: 50px;
     text-align: center;
-    align-content: center;
     background-color: #3b3b3b;
     font-size: 24px;
     color: white;
@@ -119,11 +115,8 @@ iframe {
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: center;
-    align-content: center;
     text-decoration: none;
     width: 50%;
-    
 }
 
 .sidebar-button:visited {
@@ -140,10 +133,19 @@ iframe {
 
 .active {
     display: block;
-    text-align: center;
-    align-content: center;
 }
 
+#resume {
+    text-align: center;
+}
+
+/* 
+   =========================
+   |                       |
+   |    Project Entries    |
+   |                       |
+   =========================
+*/
 .project-entry {
     display: flex;
     height: 150px;
@@ -151,7 +153,6 @@ iframe {
     margin-bottom: 50px;
     margin-left: 25px;
     margin-right: 25px;
-    align-content: center;
     border: solid 1px black;
     color: white;
     transition: box-shadow 0.5s;
@@ -170,12 +171,7 @@ iframe {
 }
 
 .project-link >:first-child {
-    float: left;
     height: 36px;
-}
-
-.thumbnail {
-    
 }
 
 .proj-git {
@@ -184,4 +180,8 @@ iframe {
 
 .proj-itch {
     background-color: red;
+}
+
+.project-entry > article {
+    padding-left: 20px;
 }
