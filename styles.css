@@ -171,7 +171,7 @@ iframe {
 }
 
 .project-link >:first-child {
-    height: 36px;
+    width: 36px;
 }
 
 .proj-git {
@@ -179,7 +179,7 @@ iframe {
 }
 
 .proj-itch {
-    background-color: red;
+    background-color: #fa5c5c;
 }
 
 .project-entry > article {
