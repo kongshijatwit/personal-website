@@ -11,15 +11,22 @@ p {
     margin: 0;
 }
 
-main div {
+main > div {
     display: none;
-    transition: display 12s;
 }
 
 iframe {
     height: 1150px;
     width: 60%;
 }
+
+/* 
+   ================
+   |              |
+   |    HEADER    |
+   |              |     
+   ================
+*/
 
 .this-thing {
     height: 300px;
@@ -52,6 +59,14 @@ iframe {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* 
+   =========================
+   |                       |
+   |    Portfolio Links    |
+   |                       |
+   =========================
+*/
+
 .portfolio-bar {
     display: grid;
     grid-template-columns: 33% auto 33%;
@@ -76,6 +91,14 @@ iframe {
     height: 36px;
     padding: 20px;
 }
+
+/* 
+   =======================================
+   |                                     |
+   |    Project/Resume Navigation Bar    |
+   |                                     |
+   =======================================
+*/
 
 .navbar {
     display: flex;
@@ -104,7 +127,6 @@ iframe {
 }
 
 .sidebar-button:visited {
-    /* color: #feb47b; */
     text-decoration: none;
     color: white;
 }
@@ -116,15 +138,50 @@ iframe {
     transition: background-color 0.15s, color 0.15s;
 }
 
-#resume {
+.active {
+    display: block;
     text-align: center;
     align-content: center;
 }
 
-#projects {
-
+.project-entry {
+    display: flex;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-content: center;
+    border: solid 1px black;
+    color: white;
+    transition: box-shadow 0.5s;
 }
 
-.active {
-    display: block;
+.project-entry:hover {
+    box-shadow: -15px 15px 50px rgb(24, 24, 24);
+    transition: box-shadow 0.5s;
+}
+
+.project-link {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+}
+
+.project-link >:first-child {
+    float: left;
+    height: 36px;
+}
+
+.thumbnail {
+    
+}
+
+.proj-git {
+    background-color: black;
+}
+
+.proj-itch {
+    background-color: red;
 }
