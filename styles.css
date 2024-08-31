@@ -228,21 +228,20 @@ header {
 
 .js-entry-link {
     height: 100%;
+    width: 36px;
     padding-left: 10px;
     padding-right: 10px;
     align-content: center;
 }
 
-.js-entry-link >:first-child {
-    width: 36px;
-}
-
 .js-link-git {
-    background-color: black;
+    background: black no-repeat center url("images/logos/github-mark-white.png");
+    background-size: 36px 36px;
 }
 
 .js-link-itch {
-    background-color: #fa5c5c;
+    background: #fa5c5c no-repeat center url("images/logos/github-mark-white.png");
+    background-size: 36px 36px;
 }
 
 .js-project-title {
