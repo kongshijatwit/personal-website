@@ -27,10 +27,10 @@ iframe {
    |              |     
    ================
 */
-.this-thing {
+header {
     height: 300px;
     width: 100%;
-    background-image: radial-gradient(ellipse, #ff7e5f, #feb47b);
+    background-image: radial-gradient(ellipse, #feb47b, #ff7e5f);
 }
 
 .info-container {
@@ -59,25 +59,27 @@ iframe {
 }
 
 /* 
-   =========================
-   |                       |
-   |    Portfolio Links    |
-   |                       |
-   =========================
+   ========================
+   |                     |
+   |    Website Links    |
+   |                     |
+   ========================
 */
 .portfolio-bar {
     display: grid;
+    height: 120px;
     grid-template-columns: 33% auto 33%;
     text-align: center;
     column-gap: 5px;
-    margin-bottom: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .portfolio-item {
     border: 5px solid black;
-    margin-top: 8px;
+    align-content: center;
 }
 
 .portfolio-item:hover {
@@ -86,7 +88,7 @@ iframe {
 }
 
 .logos {
-    height: 36px;
+    height: 40px;
     padding: 20px;
 }
 
@@ -103,7 +105,7 @@ iframe {
     text-align: center;
     background-color: #3b3b3b;
     font-size: 24px;
-    color: white;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border: solid rgb(110, 110, 110);
@@ -116,12 +118,8 @@ iframe {
     padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
-    width: 50%;
-}
-
-.sidebar-button:visited {
-    text-decoration: none;
     color: white;
+    width: 50%;
 }
 
 .sidebar-button:hover {
@@ -152,8 +150,8 @@ iframe {
     background-color: #3b3b3b;
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
     border: solid 1px black;
     color: white;
     transition: box-shadow 0.5s;
@@ -189,4 +187,12 @@ iframe {
 
 .project-title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tags {
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    border: solid 1px white;
+    border-radius: 16px;
+    font-size: 14px;
 }
