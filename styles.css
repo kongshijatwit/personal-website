@@ -196,3 +196,63 @@ header {
     border-radius: 16px;
     font-size: 14px;
 }
+
+/* 
+   =================================
+   |                               |
+   |    Dynamic Project Entries    |
+   |                               |
+   =================================
+*/
+.js-project-entry {
+    display: flex;
+    height: 150px;
+    background-color: #3b3b3b;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: solid 1px black;
+    color: white;
+    transition: box-shadow 0.5s;
+}
+
+.js-project-entry:hover {
+    box-shadow: -15px 15px 50px rgb(24, 24, 24);
+    transition: box-shadow 0.5s;
+}
+
+.js-project-entry > article {
+    padding-left: 24px;
+}
+
+.js-entry-link {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+}
+
+.js-entry-link >:first-child {
+    width: 36px;
+}
+
+.js-link-git {
+    background-color: black;
+}
+
+.js-link-itch {
+    background-color: #fa5c5c;
+}
+
+.js-project-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.js-tags {
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    border: solid 1px white;
+    border-radius: 16px;
+    font-size: 14px;
+}
