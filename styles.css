@@ -138,66 +138,6 @@ header {
 }
 
 /* 
-   =========================
-   |                       |
-   |    Project Entries    |
-   |                       |
-   =========================
-*/
-.project-entry {
-    display: flex;
-    height: 150px;
-    background-color: #3b3b3b;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
-    border: solid 1px black;
-    color: white;
-    transition: box-shadow 0.5s;
-}
-
-.project-entry:hover {
-    box-shadow: -15px 15px 50px rgb(24, 24, 24);
-    transition: box-shadow 0.5s;
-}
-
-.project-link {
-    height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-content: center;
-}
-
-.project-link >:first-child {
-    width: 36px;
-}
-
-.proj-git {
-    background-color: black;
-}
-
-.proj-itch {
-    background-color: #fa5c5c;
-}
-
-.project-entry > article {
-    padding-left: 24px;
-}
-
-.project-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.tags {
-    margin-left: 20px;
-    padding: 5px 5px 5px 5px;
-    border: solid 1px white;
-    border-radius: 16px;
-    font-size: 14px;
-}
-
-/* 
    =================================
    |                               |
    |    Dynamic Project Entries    |

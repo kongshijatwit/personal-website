@@ -46,9 +46,9 @@ function change(n) {
 function createNewProjectEntry(parent, projectObj) {
     // ---- Create project entry div ---- //
     const projectEntry = document.createElement('div');
-    projectEntry.className = 'project-entry';
+    projectEntry.className = 'js-project-entry';
     
-    
+
     // ---- Create div for github/itch links ---- //
     const projectLinkContainer = document.createElement('div');
     projectLinkContainer.style = 'display: grid;';
