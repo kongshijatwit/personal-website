@@ -7,7 +7,16 @@ createNewProjectEntry(projParent, {
     description: 'A study tool plugin for students of schools using Moodle, an open-source Learning Management System.',
     thumbnail: 'images/thumbnails/stoodle.png',
     links: ['https://github.com/deandradejatwit/stoodle', 'none'],
-    tags: ['php', 'sql', 'javascript', 'open-source']
+    tags: ['xampp', 'php', 'sql', 'javascript', 'open-source']
+});
+
+// A Game To Die For Project
+createNewProjectEntry(projParent, {
+    title: 'A Game To Die For',
+    description: 'A card-based rock-paper-scissors game made in Unity.',
+    thumbnail: 'images/thumbnails/agtdf.png',
+    links: ['https://github.com/kongshijatwit/A-Game-To-Die-For', 'https://ballisticbear703.itch.io/a-game-to-die-for'],
+    tags: ['unity', 'c-sharp', 'game-jam']
 });
 
 // Lunar Shuttle Project
@@ -19,13 +28,13 @@ createNewProjectEntry(projParent, {
     tags: ['godot', 'c-sharp']
 });
 
-// A Game To Die For Project
+// Snowboarding Project
 createNewProjectEntry(projParent, {
-    title: 'A Game To Die For',
-    description: 'A card-based rock-paper-scissors game made in Unity.',
-    thumbnail: 'images/thumbnails/agtdf.png',
-    links: ['https://github.com/kongshijatwit/A-Game-To-Die-For', 'https://ballisticbear703.itch.io/a-game-to-die-for'],
-    tags: ['unity', 'c-sharp', 'game-jam']
+    title: 'Snowboarding',
+    description: 'Avoid the trees while going down the infinte mountain.',
+    thumbnail: 'images/thumbnails/snowboarding.png',
+    links: ['https://github.com/KingJay014/G-J-2', 'https://ballisticbear703.itch.io/snowboarding-vr'],
+    tags: ['unity', 'meta-quest-2', 'c-sharp']
 });
 
 // A Small Bowl Project
