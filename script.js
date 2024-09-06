@@ -47,7 +47,8 @@ createNewProjectEntry(projParent, {
 });
 
 function change(n) {
-    let panels = document.querySelectorAll('main > div')
+    let panels = document.querySelectorAll('.content > div')
+    console.log(panels);
     panels.forEach(p => p.classList.remove('active'))
     panels[n - 1].classList.add('active')
 }

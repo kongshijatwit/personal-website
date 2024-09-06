@@ -8,46 +8,54 @@
 </head>
 <body>
     
-    <!-- Header with picture and about me -->
     <header>
+        <!-- Header with picture and about me -->
         <div class="info-container">
             <div>
-                <img class="self-pic" src="images/50399255_00301_0065_Medium.jpg" alt="self-picture.jpg">
+                <img class="self-pic" src="images/self-pic.jpg" alt="self-picture.jpg">
             </div>
             <article class="about-me">
                 <p><strong>Jonathan Kong-Shi</strong></p>
-                <p>I am a recent graduate of Wentworth Institute of Technology with a Bachelor of Science in Computer Science</p>
+                <p style="margin-top: 15px;">
+                    I hold a passion for all things programming and game development related.
+                    I'm eagar to learn new technologies and apply them with every new project.
+                    Graduated with a Bachelor of Science in Computer Science at Wentworth Institute of Technology.
+                </p>
             </article>
         </div>
     </header>
 
-    <!-- Links to GitHub, LinkedIn, and Itch.io -->
-    <div class="portfolio-bar">
-        <a class="portfolio-item" href="https://github.com/kongshijatwit" target="_blank">
-            <img class="logos" src="images/logos/GitHub_Logo_White.png" alt="GitHub">
-        </a>
-        <a class="portfolio-item" href="https://www.linkedin.com/in/jonathan-kong-shi-461504240/" target="_blank">
-            <img class="logos" src="images/logos/LinkedIn-Blue-14@2x.png" alt="LinkedIn">
-        </a>
-        <a class="portfolio-item" href="https://ballisticbear703.itch.io/" target="_blank">
-            <img class="logos" src="images/logos/itchio-logo-white.png" alt="Itch.io">
-        </a>
-    </div>
-
-    <!-- Projects & Resume -->
     <main>
-        <nav id="nav" class="navbar">
-            <a data-id="1" href="#nav" class="sidebar-button">Projects</a>
-            <a data-id="2" href="#nav" class="sidebar-button">Resume</a>
-        </nav>
-
-        <div id="projects" class="active">
+        <!-- Links to GitHub, LinkedIn, and Itch.io -->
+        <div class="portfolio-bar">
+            <a class="portfolio-item" href="https://github.com/kongshijatwit" target="_blank">
+                <img class="logos" src="images/logos/GitHub_Logo_White.png" alt="GitHub">
+            </a>
+            <a class="portfolio-item" href="https://www.linkedin.com/in/jonathan-kong-shi-461504240/" target="_blank">
+                <img class="logos" src="images/logos/LinkedIn-Blue-14@2x.png" alt="LinkedIn">
+            </a>
+            <a class="portfolio-item" href="https://ballisticbear703.itch.io/" target="_blank">
+                <img class="logos" src="images/logos/itchio-logo-white.png" alt="Itch.io">
+            </a>
         </div>
 
-        <div id="resume">
-            <iframe class="resume" src="files/Jonathan Kong-Shi Resume.pdf" frameBorder="0" scrolling="auto"></iframe>
+        <!-- Projects & Resume -->
+        <div class="content">
+            <nav id="nav" class="navbar">
+                <a data-id="1" href="#nav" class="sidebar-button">Projects</a>
+                <a data-id="2" href="#nav" class="sidebar-button">Resume</a>
+            </nav>
+
+            <div id="projects" class="active"></div>
+
+            <div id="resume">
+                <iframe class="resume" src="files/Jonathan Kong-Shi Resume.pdf" frameBorder="0" scrolling="auto"></iframe>
+            </div>
         </div>
+
     </main>
+
     <script src="script.js"></script>
-</body> 
+
+</body>
 </html>

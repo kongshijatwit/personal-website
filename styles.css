@@ -11,10 +11,6 @@ p {
     margin: 0;
 }
 
-main > div {
-    display: none;
-}
-
 iframe {
     height: 1150px;
     width: 60%;
@@ -45,7 +41,6 @@ header {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    object-position: 0% 15%;
 }
 
 .about-me {
@@ -129,7 +124,11 @@ header {
     transition: background-color 0.15s, color 0.15s;
 }
 
-.active {
+.content > div {
+    display: none;
+}
+
+.content > .active {
     display: block;
 }
 
@@ -138,11 +137,11 @@ header {
 }
 
 /* 
-   =================================
-   |                               |
-   |    Dynamic Project Entries    |
-   |                               |
-   =================================
+   =========================
+   |                       |
+   |    Project Entries    |
+   |                       |
+   =========================
 */
 .js-project-entry {
     display: flex;
